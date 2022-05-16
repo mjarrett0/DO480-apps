@@ -7,3 +7,4 @@ resources:
   - deployment.yaml
   - service.yaml
   - service-frontend.yaml
+  - route-mng.yaml
