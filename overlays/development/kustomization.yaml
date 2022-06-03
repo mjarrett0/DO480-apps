@@ -4,11 +4,11 @@ kind: Kustomization
 bases:
   - ../../base
 
-namePrefix: dev-
+nameSuffix: -apac
 
-resources:
-  - dbclaim-pvc.yaml
-  - route.yaml
+#resources:
+# - dbclaim-pvc.yaml
+#  - route.yaml
 
 images: 
  - name: mysql
