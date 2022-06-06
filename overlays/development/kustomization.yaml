@@ -6,9 +6,9 @@ bases:
 
 nameSuffix: -apac
 
-#resources:
+resources:
 # - dbclaim-pvc.yaml
-#  - route.yaml
+  - route.yaml
 
 images: 
  - name: mysql
